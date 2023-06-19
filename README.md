@@ -2,7 +2,7 @@
 ### Data Scientist Assignment Solution and Explanation of the Process <br>
 
 #### Background of the Assignment
-There are excel file, where 2 sheets are attached. In sheet 1 there are information about:
+There are Excel file, where 2 sheets are attached. In sheet 1 there is information about:
 - ID	
 - Customer Name	
 - Division	
@@ -17,7 +17,7 @@ and in sheet 2 there are information about
 
 #### Assignment Part 1: Excel
 
-In assignment, it is said to
+In the assignment, it is said to
 
 3. Create a pivot table using data of sheet1 and show the information following
 this structure -
