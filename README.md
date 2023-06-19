@@ -104,7 +104,7 @@ After run the code from "Command Prompt"
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone [https://github.com/afridarahman38/DataScientistAssignment/tree/master]
 ```
 
 Code of Part 2: 1
@@ -139,6 +139,103 @@ Output
 ```bash
   Sheet1.xlsx
   Sheet1.xlsx
+```
+### 2. Convert the excel file to csv.
+
+```bash
+    import pandas as pd
+
+    df = pd.read_excel('/content/Sheet1.xlsx', sheet_name='Sheet1') #read excel file
+
+    df.to_csv('/content/Sheet1.csv', index=False) #excel to csv
+```
+
+Output
+
+```bash
+    Sheet1.xlsx
+    Sheet1.csv
+```
+### 3. Now load the csv file.
+
+```bash
+    import pandas as pd
+
+    df = pd.read_csv('/content/Sheet1.csv') # load csv file
+```
+
+Output
+
+```bash
+    It loaded the Sheet1.csv file.
+```
+### 4. Encode the data to have similar values.
+
+```bash
+    df = df.drop('ID', axis=1) #get rid of the column ID
+
+print(df)
+```
+
+Output
+
+```bash
+    encoded the dataset.
+```
+### 5. Encode the data to have similar values.
+
+```bash
+     from sklearn.preprocessing import LabelEncoder
+
+    encoder = LabelEncoder() #creating instance in LabelEncoder
+
+    df['Division'] = encoder.fit_transform(df['Division']) #encode the column
+
+    print(df)
+```
+
+Output
+
+```bash
+    encodeed the dataset by Division
+```
+### 6. Now use K-means clustering based on their divisions. This part is a bonus
+task.
+
+```bash
+    import pandas as pd
+from sklearn.cluster import KMeans
+
+df = pd.read_csv('/content/Sheet1.csv') #load dataset
+
+print(df['Division'].unique()) #verify unique values
+
+features = ['Division'] #selecting column
+
+kmeans = KMeans(n_clusters=8)  # number of clusters
+kmeans.fit(df[features])
+
+cluster_labels = kmeans.labels #retrieve cluster labels to data point
+
+df['Cluster_Labels'] = cluster_labels #add cluster labels to dataframe
+```
+
+Output
+
+```bash
+        faced problem
+```
+
+### 7. Download the file without omitting the output.
+
+```bash
+    files.download('/content/Sheet1.csv') #for download
+```
+
+Output
+
+```bash
+    Sheet1.csv downloaded
 ```
 
 
