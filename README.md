@@ -238,6 +238,11 @@ Output
     Sheet1.csv downloaded
 ```
 
+## Contact
+
+Your Name - Afrida Rahman - https://www.linkedin.com/in/afrida-rahman-152287199/ - afridaurmi@gmail.com
+
+Project Link: https://github.com/afridarahman38/DataScientistAssignment/tree/master
 
 
 
