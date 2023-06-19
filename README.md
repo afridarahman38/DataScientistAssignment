@@ -15,7 +15,7 @@ and in sheet 2 there are information about
 - ID
 
 
-### Assignment Part 1: Excel
+#### Assignment Part 1: Excel
 
 In assignment, it is said to
 
@@ -31,7 +31,7 @@ the result as True or False. You need to use a formula to match the IDs.
 
 
 
-### Assignment Part 2: Python
+#### Assignment Part 2: Python
 
 1. In this part, separate the sheet 1 data in a new excel sheet.
 2. Convertion the excel file to csv.
@@ -50,7 +50,7 @@ task.
 7. Download the file without omitting the output.
 
 
-## Installation
+### Installation
 Used colab to do Part 2 task.
 
 Installed the version of Python and the environment setup I am using:
@@ -62,7 +62,7 @@ Installed the version of Python and the environment setup I am using:
     xlwings 0.29.1 
 ```
 
-## Explanation of Process Part 1:
+### Explanation of Process Part 1:
 #### To fix "Age" column RANDBETWEEN Excel formula
 #### formula items:
 
@@ -83,7 +83,7 @@ Installed the version of Python and the environment setup I am using:
 - c. "Rows should be in the following order: Division; Customer Name;
 ID" - In this problem faced a problem with using the Customer Name column.
 
-## Explanation of Process Part 2:
+### Explanation of Process Part 2:
 ### 1. Separate the sheet 1 data in a new Excel sheet.
 
 For this part I used "PyCharm". Tried to do on colab, but faced the problem. For this part I had to install anaconda, xlwings. 
@@ -140,7 +140,11 @@ Output
   Sheet1.xlsx
   Sheet1.xlsx
 ```
-### 2. Convert the excel file to csv.
+### importing sheet1 Excel file in colab
+from google.colab import files
+uploaded = files.upload()
+
+### 2. Convert the Excel file to csv.
 
 ```bash
     import pandas as pd
@@ -156,7 +160,7 @@ Output
     Sheet1.xlsx
     Sheet1.csv
 ```
-### 3. Now load the csv file.
+### 3. Now load the CSV file.
 
 ```bash
     import pandas as pd
@@ -225,6 +229,8 @@ Output
 ```bash
         faced problem
 ```
+As the knn algorithm, also known as KNN or k-NN, is a non-parametric, supervised learning classifier, which uses proximity to make classifications or predictions about the grouping of an individual data point. KNN algorithm falls under the Supervised Learning category and is used for classification and regression.
+
 
 ### 7. Download the file without omitting the output.
 
@@ -238,7 +244,7 @@ Output
     Sheet1.csv downloaded
 ```
 
-## Contact
+### Contact
 
 Your Name - Afrida Rahman - https://www.linkedin.com/in/afrida-rahman-152287199/ - afridaurmi@gmail.com
 
