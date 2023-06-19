@@ -229,7 +229,7 @@ Output
 ```bash
         faced problem
 ```
-As the knn algorithm, also known as KNN or k-NN, is a non-parametric, supervised learning classifier, which uses proximity to make classifications or predictions about the grouping of an individual data point. KNN algorithm falls under the Supervised Learning category and is used for classification and regression.
+The k-nearest neighbors algorithm, also known as KNN or k-NN, is a non-parametric, supervised learning classifier, which uses proximity to make classifications or predictions about the grouping of an individual data point. KNN algorithm falls under the Supervised Learning category and is used for classification and regression. As KNN works on integer / float numbers. Have to count the column "Division" as numbers. 
 
 
 ### 7. Download the file without omitting the output.
